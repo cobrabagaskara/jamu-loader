@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Jamu Loader",
+  "version": "2.0.0",
+  "description": "Loader modular untuk script ePuskesmas",
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://cirebon.epuskesmas.id/",
+    "https://raw.githubusercontent.com/",
+    "https://script.google.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cirebon.epuskesmas.id/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png"
+  },
+  "update_url": "https://raw.githubusercontent.com/cobrabagaskara/tambak/main/dist/update_manifest.xml"
+}

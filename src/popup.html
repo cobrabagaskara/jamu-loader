@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jamu Loader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <img src="icons/logo.png" alt="Jamu Loader Logo" width="40" height="40">
+        <h1>Jamu Loader</h1>
+      </div>
+      <div class="version">v2.0.0</div>
+    </header>
+
+    <!-- Status -->
+    <div class="status-bar">
+      <span class="status-dot"></span>
+      <span class="status-text">Ready</span>
+    </div>
+
+    <!-- Modules List -->
+    <div class="modules-section">
+      <div class="section-header">
+        <h2>📦 Modules</h2>
+        <div class="stats">
+          <span class="stat"><strong id="active-count">0</strong> Active</span>
+          <span class="stat"><strong id="total-count">0</strong> Total</span>
+        </div>
+      </div>
+
+      <div class="modules-list" id="modules-list">
+        <div class="loading">⏳ Memuat modules...</div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button class="btn btn-primary" id="reload-btn">
+        🔄 Reload All
+      </button>
+      <button class="btn btn-secondary" id="settings-btn">
+        ⚙️ Settings
+      </button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
