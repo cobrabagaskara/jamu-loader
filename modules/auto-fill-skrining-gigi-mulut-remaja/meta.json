@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-gigi-mulut-remaja",
+  "name": "Auto Fill - Skrining Gigi & Mulut Remaja",
+  "description": "Otomatis isi skrining kesehatan gigi & mulut anak usia sekolah & remaja",
+  "version": "1.2",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkesehatangigimulutremaja/create/*"
+  ]
+}

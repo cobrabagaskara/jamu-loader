@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-risiko-kanker-payudara",
+  "name": "Auto Fill Skrining Risiko Kanker Payudara",
+  "description": "Auto-fill Skrining Risiko Kanker Payudara (Hanya untuk Perempuan) dengan validasi gender",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkankerpayudara/create/*"
+  ]
+}

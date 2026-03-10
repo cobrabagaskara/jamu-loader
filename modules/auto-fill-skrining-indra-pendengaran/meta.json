@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-indra-pendengaran",
+  "name": "Auto Fill Skrining Indra Pendengaran",
+  "description": "Auto-fill Skrining Indra Pendengaran untuk semua pasien (tanpa kondisi)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningindrapendengaran/create/*"
+  ]
+}

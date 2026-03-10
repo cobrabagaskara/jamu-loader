@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-malaria",
+  "name": "Auto Fill Skrining Malaria",
+  "description": "Auto-fill Skrining Malaria untuk semua pasien (tanpa kondisi)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningmalaria/create/*"
+  ]
+}

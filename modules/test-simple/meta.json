@@ -1,0 +1,10 @@
+{
+  "id": "test-simple",
+  "name": "TEST SIMPLE",
+  "description": "",
+  "version": "1.0",
+  "author": "",
+  "match": [
+    "https://sehatindonesiaku.kemkes.go.id/*"
+  ]
+}

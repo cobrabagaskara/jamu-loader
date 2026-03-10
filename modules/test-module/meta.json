@@ -1,0 +1,8 @@
+{
+  "id": "test-module",
+  "name": "Test Module",
+  "description": "Module untuk testing sistem Skrining Auto, Bisa di Off ",
+  "version": "1.0.1",
+  "author": "cobrabagaskara",
+  "match": ["https://cirebon.epuskesmas.id/*"]
+}

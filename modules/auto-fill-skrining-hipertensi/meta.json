@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-hipertensi",
+  "name": "Auto Fill Skrining Hipertensi",
+  "description": "Auto-fill Skrining Hipertensi untuk semua gender dan usia (langsung jalan otomatis)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skrininghipertensi/create/*"
+  ]
+}

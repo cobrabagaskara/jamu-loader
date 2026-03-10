@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-kesehatan-jiwa-phq-4",
+  "name": "Auto Fill Skrining Kesehatan Jiwa PHQ-4",
+  "description": "Auto-fill Skrining Kesehatan Jiwa Dewasa dan Lansia (PHQ-4) untuk semua pasien - FIXED",
+  "version": "1.1",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkesehatanjiwadewasalansia/create/*"
+  ]
+}

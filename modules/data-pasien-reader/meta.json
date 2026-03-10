@@ -1,0 +1,10 @@
+{
+  "id": "data-pasien-reader",
+  "name": "Data Pasien Reader",
+  "description": "Baca data pasien dan simpan ke localStorage, Modul ini harus aktif",
+  "version": "1.0",
+  "author": "Aang",
+  "match": [
+    "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+  ]
+}

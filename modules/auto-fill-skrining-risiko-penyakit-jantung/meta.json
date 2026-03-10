@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-risiko-penyakit-jantung",
+  "name": "Auto Fill Skrining Risiko Penyakit Jantung",
+  "description": "Auto-fill Skrining Risiko Penyakit Jantung untuk semua pasien (tanpa kondisi)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningrisikojantung/create/*"
+  ]
+}

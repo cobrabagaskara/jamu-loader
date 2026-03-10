@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-kesehatan-penglihatan",
+  "name": "Auto Fill Skrining Kesehatan Penglihatan",
+  "description": "Auto-fill Skrining Kesehatan Penglihatan dengan pemilihan template berdasarkan usia (<18 vs ≥18 tahun)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkesehatanpenglihatan/create/*"
+  ]
+}

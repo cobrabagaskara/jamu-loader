@@ -1,0 +1,540 @@
+{
+  "version": "1.0.1",
+  "last_updated": "2026-02-05T08:15:00Z",
+  "modules": {
+  "data-pasien-reader": {
+    "name": "Data Pasien Reader",
+    "description": "Baca data pasien dan simpan ke localStorage",
+    "version": "1.0",
+    "author": "Aang",
+    "match": [
+      "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+    ],
+    "enabled_by_default": true,
+    "file": "data-pasien-reader/script.js",
+    "meta_file": "data-pasien-reader/meta.json"
+  },
+
+  "auto-fill-anamnesa": {
+    "name": "Auto-fill Anamnesa",
+    "description": "Isi form anamnesa dari kunjungan sebelumnya. Aktifkan dengan Ctrl+Shift+Z — tidak ada tombol yang muncul di layar.",
+    "version": "1.4.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/anamnesa/*"
+    ],
+    "enabled_by_default": false,
+    "file": "auto-fill-anamnesa/script.js",
+    "meta_file": "auto-fill-anamnesa/meta.json"
+  },
+
+  "skrining-risiko-kanker-serviks": {
+    "name": "Skrining Risiko Kanker Serviks",
+    "description": "Auto-fill Skrining Risiko Kanker Serviks dengan validasi gender & usia (Hanya untuk Perempuan ≥30 tahun)",
+    "version": "1.1",
+    "author": "Aang",
+    "match": [
+      "https://cirebon.epuskesmas.id/risikokankerserviks/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "skrining-risiko-kanker-serviks/script.js",
+    "meta_file": "skrining-risiko-kanker-serviks/meta.json"
+  },
+
+  "auto-fill-skrining-wast": {
+    "name": "Auto Fill Skrining WAST",
+    "description": "Auto-fill Skrining WAST dengan gender check (Hanya untuk Perempuan)",
+    "version": "1.1",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skrining/kekerasanperempuan/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-wast/script.js",
+    "meta_file": "auto-fill-skrining-wast/meta.json"
+  },
+
+  "auto-fill-skilas": {
+    "name": "Auto Fill SKILAS",
+    "description": "Auto-fill Formulir Skrining Lansia Sederhana (SKILAS) untuk usia 60+ tahun",
+    "version": "1.0",
+    "author": "Cobra Bagaskara",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningskilas/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skilas/script.js",
+    "meta_file": "auto-fill-skilas/meta.json"
+  },
+
+  "auto-fill-skrining-faktor-risiko": {
+    "name": "Auto Fill Skrining Faktor Risiko",
+    "description": "Auto-fill Skrining Faktor Risiko untuk semua gender dan usia",
+    "version": "1.1",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningfaktorrisiko/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-faktor-risiko/script.js",
+    "meta_file": "auto-fill-skrining-faktor-risiko/meta.json"
+  },
+
+   "auto-fill-skrining-diabetes-melitus": {
+    "name": "Auto Fill Skrining Diabetes Melitus",
+    "description": "Auto-fill Skrining Diabetes Melitus untuk semua gender dan usia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningdiabetesmelitus/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-diabetes-melitus/script.js",
+    "meta_file": "auto-fill-skrining-diabetes-melitus/meta.json"
+  },
+
+  "auto-fill-skrining-kanker-kolorektal": {
+    "name": "Auto Fill Skrining Kanker Kolorektal",
+    "description": "Auto-fill Skrining Kanker Kolorektal untuk semua gender dan usia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkankerkolorektal/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-kanker-kolorektal/script.js",
+    "meta_file": "auto-fill-skrining-kanker-kolorektal/meta.json"
+  },
+
+    "auto-fill-skrining-gds-4": {
+    "name": "Auto Fill Skrining GDS-4",
+    "description": "Auto-fill Skrining Geriatric Depression Scale (GDS-4) untuk lansia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skrining/gds/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-gds-4/script.js",
+    "meta_file": "auto-fill-skrining-gds-4/meta.json"
+  },
+
+  "otomasi-skrining-thalasemia": {
+    "name": "Otomasi Skrining Thalasemia",
+    "description": "Otomasi pengisian form skrining thalasemia - Data terbaru dari recording",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningthalasemia/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "otomasi-skrining-thalasemia/script.js",
+    "meta_file": "otomasi-skrining-thalasemia/meta.json"
+  },
+
+  "auto-fill-skrining-ad-8-ina": {
+    "name": "Auto Fill Skrining AD-8 INA",
+    "description": "Auto-fill Skrining AD-8 INA untuk lansia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningascertaindementia/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-ad-8-ina/script.js",
+    "meta_file": "auto-fill-skrining-ad-8-ina/meta.json"
+  },
+
+  "auto-fill-skrining-gigi-lansia": {
+    "name": "Auto Fill Skrining Gigi Lansia",
+    "description": "Auto-fill Skrining Gigi Lansia untuk lansia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkesehatangigilansia/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-gigi-lansia/script.js",
+    "meta_file": "auto-fill-skrining-gigi-lansia/meta.json"
+  },
+
+  "auto-fill-skrining-pengkajian-nutrisi": {
+    "name": "Auto Fill Skrining Pengkajian Nutrisi (Short-Form MNA)",
+    "description": "Auto-fill Skrining Pengkajian Nutrisi (Short-Form MNA) untuk lansia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningpengkajiannutrisi/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-pengkajian-nutrisi/script.js",
+    "meta_file": "auto-fill-skrining-pengkajian-nutrisi/meta.json"
+  },
+
+  "auto-fill-skrining-adl": {
+    "name": "Auto Fill Skrining ADL (Activity of Daily Living) - FIXED",
+    "description": "Auto-fill Skrining ADL dengan pemilihan template berdasarkan rentang usia - FIXED EVENT TRIGGERING",
+    "version": "1.1",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningadl/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-adl/script.js",
+    "meta_file": "auto-fill-skrining-adl/meta.json"
+  },
+
+  "auto-fill-skrining-hipertensi": {
+    "name": "Auto Fill Skrining Hipertensi",
+    "description": "Auto-fill Skrining Hipertensi untuk semua gender dan usia (langsung jalan otomatis)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skrininghipertensi/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-hipertensi/script.js",
+    "meta_file": "auto-fill-skrining-hipertensi/meta.json"
+  },
+
+  "auto-fill-skrining-tbc": {
+    "name": "Auto Fill Skrining TBC",
+    "description": "Auto-fill Skrining TBC dengan logika conditional untuk field 'lansia' berdasarkan usia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skrining/tbc/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-tbc/script.js",
+    "meta_file": "auto-fill-skrining-tbc/meta.json"
+  },
+
+  "auto-fill-skrining-layak-hamil": {
+    "name": "Auto Fill Skrining Layak Hamil",
+    "description": "Auto-fill Skrining Layak Hamil dengan pemilihan template berdasarkan rentang usia (Hanya untuk Perempuan)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skrininglayakhamil/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-layak-hamil/script.js",
+    "meta_file": "auto-fill-skrining-layak-hamil/meta.json"
+  },
+
+  "auto-fill-skrining-obesitas": {
+    "name": "Auto Fill Skrining Obesitas dengan IMT Conditional (FIXED)",
+    "description": "Auto-fill Skrining Obesitas dengan kalkulasi IMT otomatis + warning popup (FIXED: Dropdown set before popup, IMT range fix)",
+    "version": "1.1",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningobesitas/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-obesitas/script.js",
+    "meta_file": "auto-fill-skrining-obesitas/meta.json"
+  },
+
+  "auto-fill-skrining-kesehatan-jiwa-phq-4": {
+    "name": "Auto Fill Skrining Kesehatan Jiwa PHQ-4",
+    "description": "Auto-fill Skrining Kesehatan Jiwa Dewasa dan Lansia (PHQ-4) untuk semua pasien - FIXED",
+    "version": "1.1",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkesehatanjiwadewasalansia/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-kesehatan-jiwa-phq-4/script.js",
+    "meta_file": "auto-fill-skrining-kesehatan-jiwa-phq-4/meta.json"
+  },
+
+     "auto-fill-skrining-thalasemia": {
+    "name": "Auto Fill Skrining Thalasemia",
+    "description": "Auto-fill Skrining Thalasemia dengan pemilihan template berdasarkan rentang usia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningthalasemia/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-thalasemia/script.js",
+    "meta_file": "auto-fill-skrining-thalasemia/meta.json"
+  },
+
+  "auto-fill-skrining-kelainan-empedu-bayi": {
+    "name": "Auto Fill Skrining Kelainan Empedu Bayi",
+    "description": "Auto-fill Skrining Kelainan Empedu Bayi dengan pemilihan template berdasarkan usia dalam bulan",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkelainanempedubayi/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-kelainan-empedu-bayi/script.js",
+    "meta_file": "auto-fill-skrining-kelainan-empedu-bayi/meta.json"
+  },
+
+  "auto-fill-skrining-sdq-6-10-tahun": {
+    "name": "Auto Fill Skrining SDQ (6 - <11 Tahun)",
+    "description": "Auto-fill Skrining SDQ dengan validasi rentang usia 6 sampai kurang dari 11 tahun",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningsdq611/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-sdq-6-10-tahun/script.js",
+    "meta_file": "auto-fill-skrining-sdq-6-10-tahun/meta.json"
+  },
+
+  "auto-fill-skrining-sdq-11-18-tahun": {
+    "name": "Auto Fill Skrining SDQ (11 - 18 Tahun)",
+    "description": "Auto-fill Skrining SDQ dengan validasi rentang usia 11 sampai 18 tahun (inklusif)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningsdq1118/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-sdq-11-18-tahun/script.js",
+    "meta_file": "auto-fill-skrining-sdq-11-18-tahun/meta.json"
+  },
+
+  "auto-fill-skrining-kesehatan-penglihatan": {
+    "name": "Auto Fill Skrining Kesehatan Penglihatan",
+    "description": "Auto-fill Skrining Kesehatan Penglihatan dengan pemilihan template berdasarkan usia (<18 vs ≥18 tahun)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkesehatanpenglihatan/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-kesehatan-penglihatan/script.js",
+    "meta_file": "auto-fill-skrining-kesehatan-penglihatan/meta.json"
+  },
+
+  "auto-fill-skrining-ppok-dengan-kuesioner-puma": {
+    "name": "Auto Fill Skrining PPOK dengan Kuesioner PUMA",
+    "description": "Auto-fill Skrining PPOK dengan validasi usia ≥40 tahun + logika conditional field \"usia\" berdasarkan rentang usia",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningpuma/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-ppok-dengan-kuesioner-puma/script.js",
+    "meta_file": "auto-fill-skrining-ppok-dengan-kuesioner-puma/meta.json"
+  },
+
+  "auto-fill-skrining-risiko-kanker-paru": {
+    "name": "Auto Fill Skrining Risiko Kanker Paru",
+    "description": "Auto-fill Skrining Risiko Kanker Paru dengan conditional gender + usia + konfirmasi untuk perempuan",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkankerparu/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-risiko-kanker-paru/script.js",
+    "meta_file": "auto-fill-skrining-risiko-kanker-paru/meta.json"
+  },
+
+  "auto-fill-skrining-srq-29": {
+    "name": "Auto Fill Skrining SRQ-29",
+    "description": "Auto-fill Skrining Self-Reporting Questionnaire-29 (SRQ-29) untuk semua pasien",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningsrq29/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-srq-29/script.js",
+    "meta_file": "auto-fill-skrining-srq-29/meta.json"
+  },
+
+  "auto-fill-skrining-risiko-penyakit-jantung": {
+    "name": "Auto Fill Skrining Risiko Penyakit Jantung",
+    "description": "Auto-fill Skrining Risiko Penyakit Jantung untuk semua pasien (tanpa kondisi)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningrisikojantung/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-risiko-penyakit-jantung/script.js",
+    "meta_file": "auto-fill-skrining-risiko-penyakit-jantung/meta.json"
+  },
+
+  "auto-fill-skrining-who-assist-v3-1": {
+    "name": "Auto Fill Skrining WHO - ASSIST V3.1",
+    "description": "Auto-fill Skrining WHO - ASSIST V3.1 untuk semua pasien (tanpa kondisi)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningwho/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-who-assist-v3-1/script.js",
+    "meta_file": "auto-fill-skrining-who-assist-v3-1/meta.json"
+  },
+
+  "auto-fill-skrining-risiko-kanker-payudara": {
+    "name": "Auto Fill Skrining Risiko Kanker Payudara",
+    "description": "Auto-fill Skrining Risiko Kanker Payudara (Hanya untuk Perempuan) dengan validasi gender",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkankerpayudara/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-risiko-kanker-payudara/script.js",
+    "meta_file": "auto-fill-skrining-risiko-kanker-payudara/meta.json"
+  },
+
+  "auto-fill-skrining-imunisasi-dewasa": {
+    "name": "Auto Fill Skrining Imunisasi Dewasa",
+    "description": "Auto-fill Skrining Imunisasi Dewasa dengan validasi gender (Perempuan) dan pemilihan template berdasarkan rentang usia (<22 vs ≥22)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningimunisasidewasa/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-imunisasi-dewasa/script.js",
+    "meta_file": "auto-fill-skrining-imunisasi-dewasa/meta.json"
+  },
+
+  "auto-fill-skrining-kesehatan-gigi-mulut-balita": {
+    "name": "Auto Fill Skrining Kesehatan Gigi & Mulut Balita",
+    "description": "Auto-fill Skrining Kesehatan Gigi & Mulut Balita dengan validasi usia <6 tahun (72 bulan)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkesehatangigimulutbalita/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-kesehatan-gigi-mulut-balita/script.js",
+    "meta_file": "auto-fill-skrining-kesehatan-gigi-mulut-balita/meta.json"
+  },
+
+  
+  "auto-fill-skrining-gigi-mulut-remaja": {
+    "name": "Auto Fill - Skrining Gigi & Mulut Remaja",
+    "description": "Otomatis isi skrining kesehatan gigi & mulut anak usia sekolah & remaja",
+    "version": "1.2",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkesehatangigimulutremaja/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-gigi-mulut-remaja/script.js",
+    "meta_file": "auto-fill-skrining-gigi-mulut-remaja/meta.json"
+  },
+
+    "auto-fill-skrining-anemia-3-kategori-usia": {
+    "name": "Auto Fill Skrining Anemia (3 Kategori Usia)",
+    "description": "Auto-fill Skrining Anemia dengan pemilihan template berdasarkan 3 kategori usia: <12, 12-18, ≥19 tahun",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skrininganemia/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-anemia-3-kategori-usia/script.js",
+    "meta_file": "auto-fill-skrining-anemia-3-kategori-usia/meta.json"
+  },
+    "auto-fill-skrining-risiko-stroke": {
+    "name": "Auto Fill Skrining Risiko Stroke",
+    "description": "Auto-fill Skrining Risiko Stroke untuk semua pasien (tanpa kondisi)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningrisikostroke/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-risiko-stroke/script.js",
+    "meta_file": "auto-fill-skrining-risiko-stroke/meta.json"
+  },
+    "auto-fill-skrining-malaria": {
+    "name": "Auto Fill Skrining Malaria",
+    "description": "Auto-fill Skrining Malaria untuk semua pasien (tanpa kondisi)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningmalaria/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-malaria/script.js",
+    "meta_file": "auto-fill-skrining-malaria/meta.json"
+  },
+
+    "auto-fill-skrining-gigi-dewasa": {
+    "name": "Auto Fill Skrining Gigi Dewasa",
+    "description": "Auto-fill Skrining Gigi Dewasa untuk semua pasien (tanpa kondisi)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningkesehatangigidewasa/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-gigi-dewasa/script.js",
+    "meta_file": "auto-fill-skrining-gigi-dewasa/meta.json"
+  },
+    
+    "universal-recorder": {
+    "name": "Universal Recorder",
+    "description": "Recorder skrining + tombol simpan preset + conditions (gender/usia) + auto-trim FIXED",
+    "version": "1.5.2",
+    "author": "",
+    "match": [
+      "https://cirebon.epuskesmas.id/*"
+    ],
+    "enabled_by_default": true,
+    "file": "universal-recorder/script.js",
+    "meta_file": "universal-recorder/meta.json"
+  },
+    "test-simple": {
+    "name": "TEST SIMPLE",
+    "description": "",
+    "version": "1.0",
+    "author": "",
+    "match": [
+      "https://sehatindonesiaku.kemkes.go.id/*"
+    ],
+    "enabled_by_default": false,
+    "file": "test-simple/script.js",
+    "meta_file": "test-simple/meta.json"
+  },
+    "auto-fill-skrining-indra-pendengaran": {
+    "name": "Auto Fill Skrining Indra Pendengaran",
+    "description": "Auto-fill Skrining Indra Pendengaran untuk semua pasien (tanpa kondisi)",
+    "version": "1.0",
+    "author": "You",
+    "match": [
+      "https://cirebon.epuskesmas.id/skriningindrapendengaran/create/*"
+    ],
+    "enabled_by_default": true,
+    "file": "auto-fill-skrining-indra-pendengaran/script.js",
+    "meta_file": "auto-fill-skrining-indra-pendengaran/meta.json"
+  },
+    
+
+  "test-module": {
+      "name": "Test Module",
+      "description": "Module untuk testing sistem Skrining Auto",
+      "version": "1.0.1",
+      "author": "cobrabagaskara",
+      "match": ["https://cirebon.epuskesmas.id/*"],
+      "enabled_by_default": false,
+      "file": "test-module/script.js",
+      "meta_file": "test-module/meta.json"
+    }
+    
+  
+  
+
+
+    
+  }
+}

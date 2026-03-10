@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-adl",
+  "name": "Auto Fill Skrining ADL (Activity of Daily Living) - FIXED",
+  "description": "Auto-fill Skrining ADL dengan pemilihan template berdasarkan rentang usia - FIXED EVENT TRIGGERING",
+  "version": "1.1",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningadl/create/*"
+  ]
+}

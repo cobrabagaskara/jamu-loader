@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-who-assist-v3-1",
+  "name": "Auto Fill Skrining WHO - ASSIST V3.1",
+  "description": "Auto-fill Skrining WHO - ASSIST V3.1 untuk semua pasien (tanpa kondisi)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningwho/create/*"
+  ]
+}

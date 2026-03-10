@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-gds-4",
+  "name": "Auto Fill Skrining GDS-4",
+  "description": "Auto-fill Skrining Geriatric Depression Scale (GDS-4) untuk lansia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skrining/gds/create/*"
+  ]
+}

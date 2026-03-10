@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-tbc",
+  "name": "Auto Fill Skrining TBC",
+  "description": "Auto-fill Skrining TBC dengan logika conditional untuk field 'lansia' berdasarkan usia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skrining/tbc/*"
+  ]
+}

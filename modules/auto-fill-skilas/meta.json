@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skilas",
+  "name": "Auto Fill SKILAS",
+  "description": "Auto-fill Formulir Skrining Lansia Sederhana (SKILAS) untuk usia 60+ tahun",
+  "version": "1.0",
+  "author": "Cobra Bagaskara",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningskilas/create/*"
+  ]
+}

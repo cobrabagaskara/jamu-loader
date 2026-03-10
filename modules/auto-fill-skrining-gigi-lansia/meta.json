@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-gigi-lansia",
+  "name": "Auto Fill Skrining Gigi Lansia",
+  "description": "Auto-fill Skrining Gigi Lansia untuk lansia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkesehatangigilansia/create/*"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-risiko-kanker-paru",
+  "name": "Auto Fill Skrining Risiko Kanker Paru",
+  "description": "Auto-fill Skrining Risiko Kanker Paru dengan conditional gender + usia + konfirmasi untuk perempuan",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkankerparu/create/*"
+  ]
+}

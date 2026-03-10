@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-kanker-kolorektal",
+  "name": "Auto Fill Skrining Kanker Kolorektal",
+  "description": "Auto-fill Skrining Kanker Kolorektal untuk semua gender dan usia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkankerkolorektal/create/*"
+  ]
+}

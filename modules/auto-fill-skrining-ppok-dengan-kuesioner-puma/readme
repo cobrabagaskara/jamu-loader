@@ -1,0 +1,55 @@
+🎯 Fitur Utama Script:
+✅ Validasi Usia Ketat (≥40 tahun)
+Jika usia < 40 tahun → Error popup dengan penjelasan
+Jika usia ≥ 40 tahun → Lanjut ke pengisian form
+✅ Logika Conditional untuk Field "usia"
+Rentang Usia
+Nilai Field "usia"
+Keterangan
+40-49 tahun
+"0"
+Skor 0
+50-59 tahun
+"1"
+Skor 1
+≥60 tahun
+"2"
+Skor 2
+✅ Enhanced Event Triggering
+7 events (click, mousedown, mouseup, focus, change, input, blur)
+Form validation trigger untuk memastikan form benar-benar selesai
+Support untuk 16 field radio button
+✅ Popup Completion dengan Detail
+12345678
+Field "Usia dalam tahun" (PUMA):
+• Rentang Usia: 40-49 tahun
+• Nilai yang Dipilih: "0"
+
+ℹ️ Penjelasan Field "Usia dalam tahun":
+• 40-49 tahun → Nilai "0"
+• 50-59 tahun → Nilai "1"
+• ≥60 tahun → Nilai "2"
+✅ Tanpa Validasi Gender
+Berlaku untuk semua gender (Laki-laki & Perempuan)
+📝 Cara Install:
+Buka Tampermonkey → Create a new script
+Hapus semua kode default
+Paste kode di atas
+Simpan dengan Ctrl+S
+Buka halaman Skrining PPOK (PUMA) → script akan langsung berjalan otomatis! 🚀
+💡 Contoh Hasil:
+Usia Pasien
+Field "usia"
+Popup Completion
+46 tahun
+"0"
+Rentang: 40-49 tahun
+55 tahun
+"1"
+Rentang: 50-59 tahun
+68 tahun
+"2"
+Rentang: ≥60 tahun
+39 tahun
+❌ Error popup
+"Skrining PPOK hanya untuk usia ≥40 tahun"

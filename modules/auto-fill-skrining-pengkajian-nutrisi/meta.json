@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-pengkajian-nutrisi",
+  "name": "Auto Fill Skrining Pengkajian Nutrisi (Short-Form MNA)",
+  "description": "Auto-fill Skrining Pengkajian Nutrisi (Short-Form MNA) untuk lansia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningpengkajiannutrisi/create/*"
+  ]
+}

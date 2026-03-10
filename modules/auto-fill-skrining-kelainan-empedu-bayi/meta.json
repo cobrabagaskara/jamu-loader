@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-kelainan-empedu-bayi",
+  "name": "Auto Fill Skrining Kelainan Empedu Bayi",
+  "description": "Auto-fill Skrining Kelainan Empedu Bayi dengan pemilihan template berdasarkan usia dalam bulan",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkelainanempedubayi/create/*"
+  ]
+}

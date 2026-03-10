@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-thalasemia",
+  "name": "Auto Fill Skrining Thalasemia",
+  "description": "Auto-fill Skrining Thalasemia dengan pemilihan template berdasarkan rentang usia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningthalasemia/create/*"
+  ]
+}

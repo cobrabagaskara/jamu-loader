@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-srq-29",
+  "name": "Auto Fill Skrining SRQ-29",
+  "description": "Auto-fill Skrining Self-Reporting Questionnaire-29 (SRQ-29) untuk semua pasien",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningsrq29/create/*"
+  ]
+}

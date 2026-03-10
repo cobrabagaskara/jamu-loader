@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-obesitas-dengan-imt-conditional",
+  "name": "Auto Fill Skrining Obesitas dengan IMT Conditional (FIXED)",
+  "description": "Auto-fill Skrining Obesitas dengan kalkulasi IMT otomatis + warning popup (FIXED: Dropdown set before popup, IMT range fix)",
+  "version": "1.1",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningobesitas/create/*"
+  ]
+}

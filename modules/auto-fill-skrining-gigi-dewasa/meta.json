@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-gigi-dewasa",
+  "name": "Auto Fill Skrining Gigi Dewasa",
+  "description": "Auto-fill Skrining Gigi Dewasa untuk semua pasien (tanpa kondisi)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkesehatangigidewasa/create/*"
+  ]
+}

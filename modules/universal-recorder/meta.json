@@ -1,0 +1,10 @@
+{
+  "id": "universal-recorder",
+  "name": "Universal Recorder",
+  "description": "Recorder skrining + tombol simpan preset + conditions (gender/usia) + auto-trim FIXED",
+  "version": "1.5.2",
+  "author": "",
+  "match": [
+    "https://cirebon.epuskesmas.id/*"
+  ]
+}

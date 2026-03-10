@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-anemia-3-kategori-usia",
+  "name": "Auto Fill Skrining Anemia (3 Kategori Usia)",
+  "description": "Auto-fill Skrining Anemia dengan pemilihan template berdasarkan 3 kategori usia: <12, 12-18, ≥19 tahun",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skrininganemia/create/*"
+  ]
+}

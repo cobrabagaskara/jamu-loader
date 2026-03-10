@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-kesehatan-gigi-mulut-balita",
+  "name": "Auto Fill Skrining Kesehatan Gigi & Mulut Balita",
+  "description": "Auto-fill Skrining Kesehatan Gigi & Mulut Balita dengan validasi usia <6 tahun (72 bulan)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningkesehatangigimulutbalita/create/*"
+  ]
+}

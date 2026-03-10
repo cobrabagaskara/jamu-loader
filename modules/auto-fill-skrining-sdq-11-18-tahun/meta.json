@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-sdq-11-18-tahun",
+  "name": "Auto Fill Skrining SDQ (11 - 18 Tahun)",
+  "description": "Auto-fill Skrining SDQ dengan validasi rentang usia 11 sampai 18 tahun (inklusif)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningsdq1118/create/*"
+  ]
+}

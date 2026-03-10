@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-imunisasi-dewasa",
+  "name": "Auto Fill Skrining Imunisasi Dewasa",
+  "description": "Auto-fill Skrining Imunisasi Dewasa dengan validasi gender (Perempuan) dan pemilihan template berdasarkan rentang usia (<22 vs ≥22)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningimunisasidewasa/create/*"
+  ]
+}

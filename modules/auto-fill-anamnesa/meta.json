@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-anamnesa",
+  "name": "Auto-fill Anamnesa",
+  "description": "Isi form anamnesa dari kunjungan sebelumnya. Aktifkan dengan Ctrl+Shift+Z — tidak ada tombol yang muncul di layar.",
+  "version": "1.4.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/anamnesa/*"
+  ]
+}

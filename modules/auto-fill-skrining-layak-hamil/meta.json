@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-layak-hamil",
+  "name": "Auto Fill Skrining Layak Hamil",
+  "description": "Auto-fill Skrining Layak Hamil dengan pemilihan template berdasarkan rentang usia (Hanya untuk Perempuan)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skrininglayakhamil/create/*"
+  ]
+}

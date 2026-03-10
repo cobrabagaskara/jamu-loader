@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-risiko-stroke",
+  "name": "Auto Fill Skrining Risiko Stroke",
+  "description": "Auto-fill Skrining Risiko Stroke untuk semua pasien (tanpa kondisi)",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningrisikostroke/create/*"
+  ]
+}

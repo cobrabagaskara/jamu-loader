@@ -1,0 +1,10 @@
+{
+  "id": "auto-fill-skrining-diabetes-melitus",
+  "name": "Auto Fill Skrining Diabetes Melitus",
+  "description": "Auto-fill Skrining Diabetes Melitus untuk semua gender dan usia",
+  "version": "1.0",
+  "author": "You",
+  "match": [
+    "https://cirebon.epuskesmas.id/skriningdiabetesmelitus/create/*"
+  ]
+}
