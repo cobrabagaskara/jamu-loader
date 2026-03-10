@@ -2,14 +2,14 @@
 // VERSI MULTIPLE MODULES LOADER - FIXED v2 + TRACKING + FIRST-RUN NOTICE
 console.log('Jamu Loader Background: Active');
 
-const GITHUB_BASE  = 'https://raw.githubusercontent.com/cobrabagaskara/tambak/main';
+const GITHUB_BASE  = 'https://raw.githubusercontent.com/cobrabagaskara/jamu-loader/main';
 const MANIFEST_URL = GITHUB_BASE + '/modules/global-manifest.json';
 
 // ======================================================
 // TRACKING CONFIG — isi setelah deploy Google Apps Script
 // ======================================================
-const TRACKING_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzrmKI-yUDFeRG7K0USQ2UElROkRgJDE6NrbMM3Sj89v-qK8mhIKbZpdWd-unkhbMPnUg/exec';
-const TRACKING_KEY      = 'Jamuloader2025';
+const TRACKING_ENDPOINT = 'PASTE_URL_APPS_SCRIPT_ANDA_DISINI';
+const TRACKING_KEY      = 'GANTI_DENGAN_KUNCI_RAHASIA_ANDA';
 
 // Cache
 let manifest     = null;

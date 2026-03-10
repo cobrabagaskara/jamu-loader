@@ -37,5 +37,5 @@
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png"
   },
-  "update_url": "https://raw.githubusercontent.com/cobrabagaskara/tambak/main/dist/update_manifest.xml"
+  "update_url": "https://raw.githubusercontent.com/cobrabagaskara/jamu-loader/main/dist/update_manifest.xml"
 }
