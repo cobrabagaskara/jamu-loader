@@ -2,7 +2,6 @@
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='ggkpjommeocpohamokoegopakfhnocba'>
     <updatecheck
-      codebase='https://raw.githubusercontent.com/cobrabagaskara/tambak/main/dist/jamu-loader.crx'
-      version='2.0.0' />
+      codebase='https://github.com/cobrabagaskara/jamu-loader/releases/download/v2.0.0/jamu-loader.crx'
   </app>
 </gupdate>
