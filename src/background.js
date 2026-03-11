@@ -8,8 +8,8 @@ const MANIFEST_URL = GITHUB_BASE + '/modules/global-manifest.json';
 // ======================================================
 // TRACKING CONFIG — isi setelah deploy Google Apps Script
 // ======================================================
-const TRACKING_ENDPOINT = 'PASTE_URL_APPS_SCRIPT_ANDA_DISINI';
-const TRACKING_KEY      = 'GANTI_DENGAN_KUNCI_RAHASIA_ANDA';
+const TRACKING_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzrmKI-yUDFeRG7K0USQ2UElROkRgJDE6NrbMM3Sj89v-qK8mhIKbZpdWd-unkhbMPnUg/exec';
+const TRACKING_KEY      = 'Jamuloader2025';
 
 // Cache
 let manifest     = null;
